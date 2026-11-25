@@ -7,7 +7,7 @@ title: Personvernerklæring for Vift
 
 Sist oppdatert: 25. november 2026
 
-Vift er en app for å dele restauranttips med venner. Jeg som har laget appen, samler inn så lite som mulig, og bruker det bare for at appen skal fungere.
+Vift er en app for å dele restauranttips med venner. Jeg samler inn så lite data som mulig, og bruker det bare for at appen skal fungere.
 
 ## Hvem er ansvarlig
 
@@ -51,7 +51,7 @@ Hvis jeg endrer erklæringen, oppdaterer jeg datoen øverst og sier ifra i appen
 
 # Privacy policy (English)
 
-Vift is an app for sharing restaurant tips with friends. I made the app, and I collect as little as possible and use it only to make the app work.
+Vift is an app for sharing restaurant tips with friends. I collect as little data as possible and use it only to make the app work.
 
 - **Controller:** Hanne Brynildsrud, hannemekker@gmail.com.
 - **What I store:** your name and email from Sign in with Apple, your profile (name, username, optional photo), the visits, ratings, tips, photos and saved places you add, your friends, and any reports or blocks.
