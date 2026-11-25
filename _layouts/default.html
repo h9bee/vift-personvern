@@ -7,49 +7,20 @@
 <title>{{ page.title }}</title>
 <style>
 @font-face { font-family: "Instrument Serif"; src: url("fonts/InstrumentSerif-Regular.ttf") format("truetype"); font-display: swap; }
-@font-face { font-family: "Instrument Serif"; font-style: italic; src: url("fonts/InstrumentSerif-Italic.ttf") format("truetype"); font-display: swap; }
-:root {
-  --bg: #FBF8F2; --sand: #F2EBDF; --hairline: #E2D7C5;
-  --text: #2A241E; --muted: #6E6356;
-  --blue: #2F4F86; --red: #C73E2C; --red-text: #A8321F;
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #1A1714; --sand: #2E2822; --hairline: #3D352D;
-    --text: #F3EDE4; --muted: #B3A797;
-    --blue: #8FA8D6; --red: #E06A55; --red-text: #F08A75;
-  }
-}
-* { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; }
-body {
-  margin: 0; background: var(--bg); color: var(--text);
-  font: 17px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif;
-}
-.wordmark {
-  display: block; max-width: 680px; margin: 0 auto; padding: 32px 24px 0;
-  font: italic 40px/1 "Instrument Serif", Georgia, serif; color: var(--blue); text-decoration: none;
-}
-main { max-width: 680px; margin: 0 auto; padding: 8px 24px 64px; }
-h1, h2 { font-family: "Instrument Serif", Georgia, serif; font-weight: 400; color: var(--text); letter-spacing: 0; }
-h1 { font-style: italic; font-size: 44px; line-height: 1.1; margin: 24px 0 8px; }
-h2 { font-size: 28px; line-height: 1.2; margin: 40px 0 8px; }
-h1 + p { color: var(--muted); font-size: 15px; margin-top: 0; }
-p, ul { margin: 0 0 16px; }
-ul { padding-left: 1.2em; }
-li { margin-bottom: 8px; }
-li::marker { color: var(--red); }
-strong { font-weight: 600; }
-a { color: var(--red-text); text-underline-offset: 3px; }
-hr { border: 0; border-top: 1px solid var(--hairline); margin: 56px 0 16px; }
-footer { max-width: 680px; margin: 0 auto; padding: 24px; border-top: 1px solid var(--hairline); color: var(--muted); font-size: 13px; }
+:root { --bg: #FBF8F2; --text: #2A241E; --muted: #7A6F62; --link: #2F4F86; }
+@media (prefers-color-scheme: dark) { :root { --bg: #1A1714; --text: #EDE6DC; --muted: #A89C8D; --link: #8FA8D6; } }
+body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.55 -apple-system, system-ui, sans-serif; }
+main { max-width: 34em; margin: 0 auto; padding: 48px 22px 80px; }
+h1 { font: 400 40px/1.1 "Instrument Serif", Georgia, serif; margin: 0 0 6px; }
+h1 + p { color: var(--muted); font-size: 15px; margin-bottom: 28px; }
+h2 { font: 600 15px/1.4 inherit; margin: 48px 0 8px; }
+p { margin: 0 0 14px; }
+a { color: var(--link); }
 </style>
 </head>
 <body>
-<a class="wordmark" href="./">Vift</a>
 <main>
 {{ content }}
 </main>
-<footer>Vift · hannemekker@gmail.com</footer>
 </body>
 </html>
